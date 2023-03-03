@@ -1,0 +1,15 @@
+h1{
+    color: blueviolet;
+}
+
+h1#page1 {
+    color: aquamarine;
+}
+
+h1.page2 {
+    color: aqua;
+}
+
+body ul li{
+    color: antiquewhite;
+}
