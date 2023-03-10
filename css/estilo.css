@@ -1,15 +1,49 @@
 h1{
     color: blueviolet;
+    border: 0.5rem dotted rebeccapurple;
 }
-
-h1#page1 {
+h2, h3, h4, h5, h6 {
+    display: none;
+}
+body ul li {
     color: aquamarine;
 }
 
-h1.page2 {
+p {
+    text-decoration: underline #CCC double 0.1rem;
+    text-indent: 1rem;
+}
+p.maiusculo {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color: aliceblue;
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2 0.3 black, 0 0 1rem blanchedalmond, 0 0 2rem blueviolet;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
     color: aqua;
 }
-
-body ul li{
-    color: antiquewhite;
+a:hover {
+    color: green;
+}
+footer{
+    clear: both;
+    background: #d9d9d9 url("../img/cover.jpeg")no-repeat left bottom;
+    height: 1rem;
+}
+div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: skyblue;
+    color: beige;
+    border: 0.2 solid #CCC;
+    padding: 0.2rem;
+    font-size: 2rem;
 }
