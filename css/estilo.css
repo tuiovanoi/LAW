@@ -47,3 +47,40 @@ div {
     padding: 0.2rem;
     font-size: 2rem;
 }
+h1#page1 {
+    color: green;
+    border: 0.3rem dashed greenyellow;
+}
+img {
+    width: 20rem;
+}
+ul {
+    list-style-type: square;
+}
+h1.page2 {
+    color:purple;
+    border: 1rem groove purple;
+    border-radius: 0.7rem;
+}
+ol {
+    list-style-type: upper-roman;
+}
+section img {
+    float: left;
+}
+main.grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+}
+main.flebox {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article {
+    background-color: plum;
+    margin: 1rem;
+    padding: 2rem;
+}
